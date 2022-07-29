@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import DisplayPosts from "./Components/DisplayPosts/DisplayPosts";
 import CreatePost from "./Components/CreatePost/CreatePost";
-import Navbars from "./Components/NavBar/NavBar";
-import "./App.css";
+import Navbar from "./Components/NavBar/NavBar";
+import CustomButton from "./Components/CustomButton";
 
 function App() {
   const [posts, setPosts] = useState([
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="container-fluid">
-      <Navbars className="navbar" />
+      <Navbar className="navbar" />
       <div className="border-box">
         <CreatePost addNewPostProperty={addNewPost} />
       </div>

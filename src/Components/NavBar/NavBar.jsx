@@ -1,13 +1,15 @@
 import React from "react";
-import {NavBar} from "react-bootstrap";
+import "../App";
+import { Navbar } from "react-bootstrap";
 import './NavBar.css';
 
-const Navbars = () => {
-    return(
-        <Navbar id='navbar'>
-            <NavBar.Brand id="navbartitle">SOCIALFEED</NavBar.Brand>
-            </Navbar>
-    );
-}
+
+const NavBar = () => {
+  return (
+    <Navbar id="navbar" >
+      <Navbar.Brand  id="navbarBrand">SOCIAL FEED</Navbar.Brand>
+    </Navbar>
+  );
+};
 
 export default NavBar;

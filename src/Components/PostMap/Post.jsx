@@ -1,5 +1,5 @@
 import React from "react";
-import Buttons from "../Buttons/Buttons";
+import Buttons from "../CustomButton/CustomButton";
 import './Post.css';
 
 const Post =(props) => {
