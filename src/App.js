@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import DisplayPosts from "./Components/DisplayPosts/DisplayPosts";
 import CreatePost from "./Components/CreatePost/CreatePost";
 import Navbar from "./Components/NavBar/NavBar";
-import CustomButton from "./Components/CustomButton";
+import Button from "./Components/Buttons/Buttons";
+
+import "./App.css";
 
 function App() {
   const [posts, setPosts] = useState([

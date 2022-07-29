@@ -1,10 +1,8 @@
 import { useState } from "react";
-import './CustomButton.css'
+import './Buttons.css';
 
 
-
-const CustomButton = (props) => {
-
+const Buttons = () => {
     const [likeButton, setLikeButton] = useState('inactive');
     const [dislikeButton, setDislikeButton] = useState('inactive');
     const handleClick = (event) => {
@@ -40,7 +38,7 @@ const CustomButton = (props) => {
           name="likeButton"
           id="likeButton"
         >
-          Like 
+          Like 😀
         </button>
   
         <button
@@ -49,11 +47,12 @@ const CustomButton = (props) => {
           name="dislikeButton"
           id="dislikeButton"
         >
-          Dislike 
+          Dislike 🥵
         </button>
       </div>
     );
   };
   
-  export default CustomButton;
+  export default Buttons;
   
+

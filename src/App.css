@@ -6,3 +6,10 @@
     margin: 1em;
     padding: 1em;
 }
+
+body {
+    background-image: url('./asst/side-view-portrait-black-man-relaxing-sitting-bench-park-black-man-relaxing-bench-park-177754580.jpg');
+    width: 100%;
+    background-size: cover;
+
+}
