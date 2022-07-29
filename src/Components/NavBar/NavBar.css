@@ -1,0 +1,12 @@
+#navbar{
+    background-color:azure;
+    width: 100%;
+    margin: 35px;
+}
+#navbartitle{
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    text-align: left;
+}
