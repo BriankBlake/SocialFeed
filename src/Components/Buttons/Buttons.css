@@ -1,0 +1,11 @@
+#approve.active{
+    background-color: cornflowerblue;
+}
+#disappove.active{
+    background-color: chartreuse;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+}
