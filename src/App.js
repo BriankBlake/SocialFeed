@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import DisplayPosts from "./Components/DisplayPosts/DisplayPosts";
+import CreatePost from "./Components/CreatePost/CreatePost";
+import Navbars from "./Components/NavBar/NavBar";
+import "./App.css";
 
 function App() {
+  const [posts, setPosts] = useState([
+    { name: "Danielle", userPost: "Great you like the post!" },
+    {
+      name: "Jackson",
+      userPost: "Do you like riding bikes? You my friend now.",
+    },
+  ]);
+
+  function addNewPost(post) {
+    let tempEntries = [post, ...posts];
+    setPosts(tempEntries);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <Navbars className="navbar" />
+      <div className="border-box">
+        <CreatePost addNewPostProperty={addNewPost} />
+      </div>
+      <div className="border-box">
+        <DisplayPosts parentEntries={posts} />
+      </div>
     </div>
   );
 }
