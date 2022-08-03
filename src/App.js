@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import DisplayPosts from "./Components/DisplayPosts/DisplayPosts";
 import CreatePost from "./Components/CreatePost/CreatePost";
 import Navbar from "./Components/NavBar/NavBar";
-import Button from "./Components/Buttons/Buttons";
+// import Button from "./Components/Buttons/Buttons";
+import "../src/style/Main.css";
 
 import "./App.css";
 
@@ -24,7 +25,7 @@ function App() {
     <div className="container-fluid">
       <Navbar className="navbar" />
       <div className="border-box">
-        <CreatePost addNewPostProperty={addNewPost} />
+        <CreatePost addNewPost={addNewPost} />
       </div>
       <div className="border-box">
         <DisplayPosts parentEntries={posts} />

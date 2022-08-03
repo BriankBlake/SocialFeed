@@ -1,8 +1,8 @@
 import { useState } from "react";
-import './Buttons.css';
+import '../../style/Main.css';
 
 
-const Buttons = () => {
+const Buttons = (props) => {
     const [likeButton, setLikeButton] = useState('inactive');
     const [dislikeButton, setDislikeButton] = useState('inactive');
     const handleClick = (event) => {
@@ -38,7 +38,7 @@ const Buttons = () => {
           name="likeButton"
           id="likeButton"
         >
-          Like 😀
+          Like<span>{'\u{1F64c}'}</span>
         </button>
   
         <button
@@ -47,7 +47,7 @@ const Buttons = () => {
           name="dislikeButton"
           id="dislikeButton"
         >
-          Dislike 🥵
+          Dislike<span>{'\u{1F47F}'}</span> 
         </button>
       </div>
     );
@@ -55,4 +55,3 @@ const Buttons = () => {
   
   export default Buttons;
   
-

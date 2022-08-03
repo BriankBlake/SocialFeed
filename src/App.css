@@ -2,14 +2,13 @@
     border: 1px;
     border-style: solid;
     border-color: purple;
-    background-color: whitesmoke;
+    background-color: clear;
     margin: 1em;
     padding: 1em;
 }
 
 body {
-    background-image: url('./asst/side-view-portrait-black-man-relaxing-sitting-bench-park-black-man-relaxing-bench-park-177754580.jpg');
-    width: 100%;
+    background-image: url('./asst/HD-wallpaper-white-sand-beach-beach-relaxing-summer-chairs.jpg');
+    width: 50%;
     background-size: cover;
-
 }
