@@ -4,9 +4,13 @@
     width: 72%;
     margin: 35px;
     display: grid;
-    border: 2px solid black;
+    border: 2px solid cleear;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 90px;
+    height: 90px;
+    font-size: 40;
+
     
 
 }
@@ -16,21 +20,53 @@
     font-weight: 200;
     font-size: medium;
     text-align: center;
+    padding: 3rem;
+}
+.logo-text {
+    padding-top: 3rem;
+}
+.muted-text {
+    color: blueviolet;
 }
 
 /* DisplayPost Styles */
 .display-post-form {
-    width: 40vw;
+    width: 90%;
     margin: auto;
-    margin-top: 2rem;
-    background-color: lawngreen;
-    padding: 2rem;
-    border-radius: 1rem;
-    border: 1px solid ;
-    box-shadow: 8px 6px 14 px rgb(250, 45, 199);
-    
+    margin: 2rem;
+    background-color: clear;
+    border-radius: 50px;
+    box-shadow: 6px 14px 16px rgb(250, 45, 199);
+}
+small.textmuted {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: lawngreen;
+    margin-top: 1rem;  
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: cyan;
+    margin-left: 3rem;
+    padding-left: 3rem;
+    box-shadow: 6px 6px 6px 0 black, 0 17px 10px 0 rgba(250, 6, 197); 
 }
 
+.post-entries {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.text-field {
+   width: 90%;
+}
+.name-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    margin: 1rem;
+}
 /* Post Styles */
 button {
     color: rgb(9, 248, 45);
@@ -43,28 +79,32 @@ button {
 }
 
 button:hover {
-    box-shadow: 0 12px 16px 0 rgb(250, 6, 197), 0 17px 50px 0 rgba(14, 251, 192, 0.894);
+    box-shadow: 0 12px 16px 0 black, 0 17px 10px 0 rgba(250, 6, 197);
 }
 
 .active-like {
     background-color: rgb(102, 255, 255);
+    justify-content: space-evenly;
 }
 
 .inactive-like {
     background-color: rgb(231, 4, 174);
+    justify-content: space-evenly;
 }
 
 .active-dislike {
     background-color: rgb(226, 74, 249);
+    justify-content: space-evenly;
 }
 
 .inactive-dislike {
     background-color: rgb(14, 230, 249);
+    justify-content: space-evenly;
 }
 
 /* CreatePost Styles */
 .create-post {
-    width: 5vw;
+    width: 40vw;
     margin: auto;
     margin-top: 1rem;
     background-color:clear;
@@ -72,6 +112,7 @@ button:hover {
     border-radius: 1rem;
     border: 1px solid rgb(16, 0, 0);
     box-shadow: 10px 8px 16 px rgb(255, 150, 213);
+    justify-content: space-between;
 }
 
 /* Buttons Styles */
@@ -81,7 +122,7 @@ button{
     text-align: center;
     display: inline-block;
     font-size: 14;
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 button:hover {
@@ -111,3 +152,35 @@ button{
     color:darkcyan
 }
 
+input{
+    color: blueviolet;
+}
+
+form{
+    color: darkorange;
+}
+
+/* AddEntryform Style */
+.form-grid{
+    display: grid;
+}
+
+div.middle-container{
+    background-color: clear;
+    display:grid;
+}
+
+textarea{
+    margin: 1rem;
+    display: flex;
+}
+
+label{
+    display: flex;
+    background-color: clear;
+}
+
+button.btn.btn-primary{
+    color: darkblue;
+    box-shadow: 0 12px 16px 0 black, 0 17px 10px 0 rgba(250, 6, 197); 
+}

@@ -22,15 +22,29 @@ const CreatePost = (props) => {
 
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label>Name</label>
-            <input type='text' value={name} onChange={(event) => setName(event.target.value)}/>
-            <label>Post</label>
-            <input type='text' value={Post} onChange={(event) => setPost(event.target.value)}/>
-            <button type='submit'> Submit</button>
-        </form>
+        <form onSubmit={handleSubmit} className='form-grid'>
+       <div className="left-container">
+        </div>
+          <label>Name</label>
+        <div className="middle-container">
+        <textarea
+          type="text" value={name} onChange={(event) => setName(event.target.value)}
+        ></textarea>
+         <div className="right-container">
+          </div>
+          <label>Post</label>
+          <div className="middle-container">
 
-    );
-}
- 
+          </div>
+        <textarea
+        
+          type="text" value={Post} onChange={(event) => setPost(event.target.value)}
+        ></textarea>
+      </div>
+      <div>
+        <button type='submit'className="btn btn-primary" >Submit</button>
+      </div>
+    </form>
+  );
+};
 export default CreatePost;

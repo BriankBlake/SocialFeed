@@ -4,7 +4,6 @@ import CreatePost from "./Components/CreatePost/CreatePost";
 import Navbar from "./Components/NavBar/NavBar";
 // import Button from "./Components/Buttons/Buttons";
 import "../src/style/Main.css";
-
 import "./App.css";
 
 function App() {

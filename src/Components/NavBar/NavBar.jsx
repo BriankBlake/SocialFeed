@@ -2,10 +2,11 @@ import React from "react";
 import {Navbar} from "react-bootstrap";
 import '../../style/Main.css';
 
-const NavBar = () => {
+const NavBar = (props) => {
     return(
         <Navbar id='navbar'>
-            <Navbar.Brand id="navbartitle">SOCIAL FEED</Navbar.Brand>
+            <h3 style={{margin: '1em'}}>Social
+            <small className="textmuted">Feed</small></h3>
           </Navbar>
     );
 };
