@@ -1,0 +1,29 @@
+#navbar{
+    background-color: clear;
+    width: 72%;
+    margin: 35px;
+    display: grid;
+    border: 2px solid cleear;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 90px;
+    height: 90px;
+    font-size: 40;
+
+    
+
+}
+#navbarBrand{
+    color: aqua;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: medium;
+    text-align: center;
+    padding: 3rem;
+}
+.logo-text {
+    padding-top: 3rem;
+}
+.muted-text {
+    color: blueviolet;
+}

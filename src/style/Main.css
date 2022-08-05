@@ -1,33 +1,5 @@
 /* NavBar Styles */
-#navbar{
-    background-color: clear;
-    width: 72%;
-    margin: 35px;
-    display: grid;
-    border: 2px solid cleear;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 90px;
-    height: 90px;
-    font-size: 40;
 
-    
-
-}
-#navbarBrand{
-    color: aqua;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 200;
-    font-size: medium;
-    text-align: center;
-    padding: 3rem;
-}
-.logo-text {
-    padding-top: 3rem;
-}
-.muted-text {
-    color: blueviolet;
-}
 
 /* DisplayPost Styles */
 .display-post-form {
@@ -132,7 +104,7 @@ button:hover {
     background-color: lightskyblue
 }
 #dislikeButton.active{
-    background-color:lightgreen
+    background-color:lightgreen 
 }
 .customButtons{
     display: flex;
@@ -141,11 +113,11 @@ button:hover {
 }
 
 p#Post{
-    color:rgb(124, 124, 255)
+    color:limegreen
 }
 
 p#name{
-    color:darkorchid
+    color:lightpink
 }
 
 button{
@@ -157,7 +129,7 @@ input{
 }
 
 form{
-    color: darkorange;
+    color: skyblue;
 }
 
 /* AddEntryform Style */
