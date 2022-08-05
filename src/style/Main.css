@@ -110,7 +110,7 @@ button:hover {
     background-color:clear;
     padding: 1rem;
     border-radius: 1rem;
-    border: 1px solid rgb(16, 0, 0);
+    border: 1px solid rgb(127, 255, 180);
     box-shadow: 10px 8px 16 px rgb(255, 150, 213);
     justify-content: space-between;
 }
@@ -141,7 +141,7 @@ button:hover {
 }
 
 p#Post{
-    color:darkblue
+    color:rgb(124, 124, 255)
 }
 
 p#name{
